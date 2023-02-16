@@ -1,0 +1,41 @@
+.Purchases {
+    margin-left: 40px;
+
+    .boxPrdsCar {
+        margin-top: 12px;
+
+        .boxAmountTotal {
+            display: flex;
+            align-items: center;
+
+            .amountTotal {
+                padding: 8px 16px;
+                background-color: #b333c2;
+                color: #fff;
+                border-radius: 20px;
+            }
+        }
+
+        .imgTotal {
+            width: 65px;
+            margin-left: 46px;
+        }
+    }
+
+    .botTotalPay {
+        text-align: end;
+        margin-top: 15px;
+
+        .total {
+            color: #9b9b9b;
+            font-size: 18px;
+        }
+
+        .pay {
+            color: #b333c2;
+            font-size: 18px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+    }
+}

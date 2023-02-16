@@ -1,0 +1,62 @@
+.DetailProduct {
+    margin-left: 40px;
+    .contentTextStoreTop{
+        text-align: left;
+        margin-top: 39px;
+        padding-top: 13px;
+        border-top: 1px solid #ae97b180;
+        .textChoise {
+            color: silver;
+            padding-top: 10px;
+        }
+    }
+    .boxImgAmount{
+        text-align: left;
+        .textAmount{
+            position: absolute;
+            padding: 5px 11px;
+            background-color: #b333c2;
+            border-radius: 20px;
+            color: #fff;
+        }
+        .contentDetailProduct{
+                width: 170px;
+                margin: auto;
+        }
+    }
+    .boxDescriptionPrice{
+        display: flex;
+        column-count: 2;
+        .boxPrice{
+            width: 59%;
+            text-align: start;
+            .textPrice{
+                color: #b333c2;
+                padding-left: 10px;
+            }
+        }
+        .boxAddProduct{
+            width: 100%;
+            text-align: end;
+        }
+        .button{
+            padding: 4px 8px;
+            background-color: rgb(211 211 211 / 90%);
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .buttonActive{
+            color: #fff;
+            background-color: #b333c2;
+        }
+    }
+    .descriptPrd{
+        display: block;
+        padding-bottom: 20px;
+        margin-top: 14px;
+        text-align: left;
+        border-bottom: 1px solid #d6cbd8;
+
+    }
+
+}

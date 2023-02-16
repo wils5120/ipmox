@@ -1,0 +1,50 @@
+.Navbar {
+    width: 100%;
+    padding-bottom: 12px;
+    display: flex;
+    .colLeft{
+        width: 50%;
+        .box{
+            padding: 10px 5px;
+            display: flex;
+            justify-content: end;
+            .boxGoPay{
+                border: 1px solid #b333c2;
+                padding: 0 6px;
+                cursor: pointer;
+            }
+            .boxGoPayInActive{
+                background-color: #b333c2;
+            }
+            .boxGoPayActive{
+                background-color: rgb(179 51 194 / 20%);
+            }
+            .iconShop{
+                top: 4px;
+                position: relative;
+            }
+            .textValueTotal{
+                color: #fff;
+            }
+            .textValueTotalActive{
+                color: #b333c2;
+            }
+            .bottonCancelPurchase{
+                background-color: #b333c2;
+                padding: 0 5px;
+                padding-top: 3px;
+                cursor: pointer;
+                .iconXCancel {
+                    color: #fff;
+                }
+            }
+        }
+        .buttonHomeShop{
+            background-color: #b333c2;
+            padding: 8px 0px;
+            border-radius: 5px;
+            width: 70px;
+        }
+     
+    }
+}

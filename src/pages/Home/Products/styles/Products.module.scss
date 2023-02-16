@@ -1,0 +1,28 @@
+.Products {
+    .contentCols {
+        column-count: 3;
+        .boxProduct {
+            border: 1px solid #ae97b180;
+            padding: 5px 10px;
+            margin-bottom: 15px;
+            display: flex;
+            .contexImage {
+                margin: auto;
+                width: 100px;
+                height: 100%;
+            }
+
+            .amounts {
+                position: absolute;
+                padding: 3px 9px;
+                background-color: #b333c2;
+                border-radius: 20px;
+                color: #fff;
+            }
+        }
+
+        .boxProductActive {
+            border-color: #b333c2;
+        }
+    }
+}
