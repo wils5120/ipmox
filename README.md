@@ -1,7 +1,7 @@
 para su correcto funcionamiento en el repositorio:
 
 npm i.
-npm run dev.
+y npm run dev.
 
 pruebas:
 npm run test
